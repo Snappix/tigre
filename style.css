@@ -1,0 +1,790 @@
+/********MATHURIN DEMILLY********************/
+/********TPC*********************************/
+/********Site tigre + responsive mobile******/
+
+
+body {
+    background-color: #15110C;
+}
+
+* {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+strong{
+    color: black;
+}
+
+a {
+    color: #ff9900;
+}
+
+div {
+    position: relative;
+    margin: auto;
+}
+
+.in {
+    width: 900px;
+    margin: auto;
+}
+
+li {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+
+#header {
+    background-color: #1E1912;
+
+}
+
+#header .in {
+    background-image: url(www-d.jpg);
+    background-position: 30px 0px;
+    background-repeat: no-repeat;
+}
+
+#header a {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#header span {
+    display: block;
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: none;
+}
+
+#menu {
+    height: 50px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    z-index: 20;
+}
+
+#menu li {
+    height: 50px;
+    float: left;
+    width: 150px;
+    display: block;
+}
+
+#menu a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #222211;
+    background-color: #ff9900;
+    border-top: 1px solid #ffbb44;
+    border-bottom: 1px solid #dd8800;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+}
+
+#menu a:hover {
+    color: white;
+    background-color: #ffbb44;
+}
+
+#headline .in {
+    padding-top: 340px;
+    padding-bottom: 100px;
+}
+
+
+/********Image d'accroche********/
+#headline {
+    background-image: url(tiger-d.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#headline h1 {
+    color: #ff9900;
+    margin-right: 340px;
+}
+
+#headline p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-right: 340px;
+}
+
+#headline ol {
+    position: absolute;
+    width: 270px;
+    right: 0px;
+    top: 100px;
+}
+
+#headline li {
+    background-color: #d9d4be;
+    padding: 10px 10px 10px 10px;
+    list-style-type: none;
+}
+
+
+/************Elements de liste d'action ********/
+#peti::before {
+    content: '1';
+    font-size: 20px;
+    position:absolute;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    display: block;
+    padding: 5px;
+    margin: 0px;
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 20px;
+    box-shadow: -3px 3px 0px #bbbbbb;
+    
+}
+
+#donat::before {
+    content: '2';
+    font-size: 20px;
+    position:absolute;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    display: block;
+    padding: 5px;
+    margin: 0px;
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 20px;
+    box-shadow: -3px 3px 0px #bbbbbb;
+}
+
+#shar::before {
+    content: '3';
+    font-size: 20px;
+    position:absolute;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    display: block;
+    padding: 5px;
+    margin: 0px;
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 20px;
+    box-shadow: -3px 3px 0px #bbbbbb;
+}
+
+#headline #share {
+    margin-top: 10px;
+}
+
+#headline ol p {
+    margin: 0;
+    color: #222211;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#headline h2 {
+    color: #222211;
+}
+
+#headline ol a {
+    display: block;
+    height: 20px;
+    width: auto;
+    padding: 5px 5px 5px 5px;
+    margin: 20px 20px 10px 0px;
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    box-shadow: -3px 3px 0px #bbbbbb;
+}
+
+#headline ol li h2 {
+    color: #222211;
+    padding: 5px;
+    padding-left: 35px;
+    display:inline;
+}
+
+#headline #shar {
+    margin-top: 10px;
+}
+
+#headline #peti {
+    background-color: #e6e4d8;
+}
+#headline #peti a:hover {
+    background-color: #ffbb44;
+}
+
+#headline #donat a {
+    background-color: #ff5400;
+}
+
+#headline #donat a::after {
+    content: ' → ';
+}
+
+#headline #donat a:hover {
+    background-color: #ffbb44;
+}
+
+#headline #FB {
+    background-color: #3b5998;
+}
+
+#headline #FB:hover {
+    background-color: #ffbb44;
+}
+
+#headline #TW {
+    background-color: #1783ff;
+}
+
+#headline #TW:hover {
+    background-color: #ffbb44;
+}
+
+
+#feature {
+    height: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#feature li {
+    float: left;
+    width: 280px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-image: url(tiger-pencil.jpg);
+    background-position: center;
+    background-size:cover;
+}
+
+#feature li a {
+    display: block;
+    width: 280px;
+    height: 160px;
+}
+
+span.feat {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: auto;
+    padding: 10px;
+    margin: 10px 10px 10px -10px;
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#news {
+    background-color: #1e1912;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#news ul li {
+    border-top: solid 1px #2f271c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*********Pied de page*********/
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+#footer ul li {
+    display:inline;
+}
+
+#footer a {
+    font-size: 12px;
+}
+
+#footer li::before {
+    content:' | ';
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer #ml:first-child:before{
+    content:"";
+}
+
+a:hover {
+    text-decoration: none;    
+}
+
+/**************************Responsive**********************/
+
+@media only screen    and (min-device-width : 320px)    and (max-device-width : 480px) { 
+ 
+/********General et PAGE 1***********/
+    .in {
+        width: 100%;
+    }        
+    
+    #header .in {
+    background-image: url(www-m.jpg);
+}
+    
+    #header a {
+    padding-top: 20px;
+    font-size: 26px;
+}
+    
+    #header span {
+    font-size: 11px;
+}
+    
+    #menu {
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    #menu li {
+        float:none;
+        width: 100%;
+        height: 40px;
+    }
+    
+    #menu a {
+        line-height: 40px;
+    }
+    
+    #headline {
+        background-image: none;
+    }
+    
+    #headline .in {
+        padding: 0;
+    }
+    
+    #headline h1 {
+        font-size: 20px;
+        margin: 20px;
+    }
+    
+    #headline p {
+        margin: 20px;
+    }
+    
+    #headline ol {
+        position: relative;
+        top: 0px;
+        width: 100%;
+    }
+    
+    #headline #shar {
+        margin-top: 0;
+    }
+    
+    #feature, #news {
+        display: none;
+    }
+    
+    #footer ul {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+ /******************************PAGE 2 RESPONSIVE**************************/
+    
+    #contb {
+        display: none;
+    }
+    
+    #content {
+        margin-top: -300px;
+    }
+    
+    
+    
+    #actions {
+        display: none;
+    }
+    
+    #content #text #portrait {
+        display:inline-block;
+        border: solid 8px #CACBA9;
+        margin-top: 20px;
+        margin-left: 10px;        
+        float: none;
+    }
+    
+    #content #text strong {
+        color: black;
+        font-weight: bold;
+    }
+    
+    #content #text p {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    
+    #content #text strong {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    
+    #content #text h2 {
+        padding: 8px;
+        padding-left: 30px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    
+    #content {
+        margin-bottom: -90px;
+    }
+    
+    #footer {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+/******************************PAGE 3 RESPONSIVE******************************/
+    
+    #content h1 {
+        padding-left: 10px;
+    }
+    
+    #content #submit, #content #Civilité, #content textarea  {
+        width: 100%;
+    }
+    
+    #content #Mail, #content #Nom, #content #Prénom {
+        width: 97%;
+    }
+    
+  }
+
+/******************************PAGE 2***************************/
+
+#content .in {
+    padding-top: 340px;
+    padding-bottom: 100px;
+}
+
+#content {
+    color: #ff9900;   
+}
+
+#content h1 {
+    color: lightgrey;
+    margin-left: 20px;
+    font-family: Helvetica , serif;
+}
+
+#text {
+    background-color: #e6e4d8;
+    border-bottom: solid 3px #ff9900;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+#text p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 340px;
+    color: #222211;
+}
+
+#text h2 {
+    display: block;
+    background-color: #ff9900;
+    padding: 5px;
+    padding-left: 30px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: -30px;
+    margin-right: 340px;
+    position: relative;  
+}
+
+#portrait {
+    display: block;
+    float: right;
+    border: solid 10px #CACBA9;
+    margin-top: -90px;
+    margin-right: -30px;
+}
+
+#actions {
+    height: 240px;
+    background-color: #100A08;
+    margin-top: -70px;
+}
+
+#ac {
+    width: 940px;
+}
+
+#actions li {
+    background-color: #d9d4be;
+    padding: 10px 10px 10px 10px;
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    width: 267px;
+    height: 160px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;    
+    
+}
+
+#actions #peti {
+    margin-left: 0;
+}
+
+#actions #shar {
+    
+}
+
+#actions ol p {
+    margin: 0;
+    color: #222211;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#actions h2 {
+    color: #222211;
+}
+
+#actions ol a {
+    display: block;
+    height: 22px;
+    width: auto;
+    padding: 8px 5px 5px 5px;
+    margin: 20px 8px 10px 8px;
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    box-shadow: -3px 3px 0px #bbbbbb;
+}
+
+#actions ol li h2 {
+    color: #222211;
+    padding: 5px;
+    padding-left: 35px;
+    display:inline;
+}
+
+#actions #peti {
+    background-color: #e6e4d8;
+}
+#actions #peti a:hover {
+    background-color: #ffbb44;
+}
+
+#actions #donat a {
+    background-color: #ff5400;
+}
+
+#actions #donat a::after {
+    content: ' → ';
+}
+
+#actions #donat a:hover {
+    background-color: #ffbb44;
+}
+
+#actions #FB {
+    background-color: #3b5998;
+    width: 110px;
+}
+
+#actions #FB:hover {
+    background-color: #ffbb44;
+}
+
+#actions #TW {
+    background-color: #1783ff;
+    width: 110px;
+    position: relative;
+    float: right;
+    margin-top: -45px;
+}
+
+#actions #TW:hover {
+    background-color: #ffbb44;
+}
+
+#actions strong {
+    color: black;
+}
+
+#actions li {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
+/*******Image du portrait de tigre*******/
+#contb {
+    background-image: url(tiger-d.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 300px;
+    margin-bottom: -300px;
+}
+
+
+
+/*****************************PAGE 3**********************************/
+
+/******FORMULAIRE******/
+#content h1 {
+    margin-left: 0;
+}
+
+input, select {
+    display: block;
+    width: 400px;
+    color: black;
+    padding: 5px;
+    border: solid 1px #ff9900;
+}
+
+::-webkit-input-placeholder {
+    color: lightslategray;
+}
+
+label {
+    color: black;
+    font-weight: bolder;
+    display: block;
+    margin-top: -5px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-bottom: -12px;
+}
+
+select {
+    width: 412px;
+    margin-bottom: -14px;
+}
+
+select option {
+    color: black;
+}
+
+#Nom {
+    width: 192px;
+    display: inline-block;
+}
+
+#Prénom {
+    width: 192px;
+    display: inline-block;
+}
+
+textarea {
+    height: 100px;
+    width: 412px;
+    border: solid 1px #ff9900;
+}
+
+#submit {
+    width: 414px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #ff9900;
+}
+
+#submit:hover {
+    background-color: #ffbb44;
+    cursor: pointer;
+}
+
+textarea {
+    color: black;
+}
+
+
+
+
+
+
